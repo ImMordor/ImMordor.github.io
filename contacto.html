@@ -29,16 +29,13 @@
                             <a class="nav-link text-primary" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-primary" href="contacto.html">Contacto</a>
+                            <a class="nav-link text-primary" href="Nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-primary" href="Simbolos.html">Simbolos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-primary" href="Nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="formulario.html">Sugerencias</a>
+                            <a class="nav-link text-primary" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +46,7 @@
             
         
         <!-- Inicio jumbotron -->
-        <div class="container py-4 text-start">
+            <div class="container py-4 text-start">
             
             <div class="p-5 mb-4 bg-white text-dark rounded-3 shadow-lg">
                 <div class="row">
@@ -64,10 +61,56 @@
                 </div>
             </div>
         </div>
+
+        <div class="jumbotron jumbotron-fluid bg-primary mt-2" id="sobreMi">
+            <div class="container-fluid">
+                <h2 class="text-center text-white">Formulario de contacto</h2>
+                <form id="form" class="text-dark">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 text-center p-4">
+                            <div class="form-group">
+                                <label for="names">Nombres</label>
+                                <input type="text" class="form-control text-center" name="nombres"
+                                    placeholder="Ingresa tus nombres" maxlength="30" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastNames">Apellidos</label>
+                                <input type="text" class="form-control text-center" name="apellidos"
+                                    placeholder="Ingresa tus apellidos" maxlength="30" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefono</label>
+                                <input type="text" class="form-control text-center" name="telefono"
+                                    placeholder="Ingresa tu numero de telefono" maxlength="30" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electronico</label>
+                                <input type="email" class="form-control text-center" name="email"
+                                    placeholder="Ingresa tu correo electronico" maxlength="30" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Sugerencia</label>
+                                <textarea type="text" class="form-control text-center" name="mensaje"
+                                    placeholder="Ingresa las sugerencias que deseas enviar" maxlength="300" required
+                                    rows="5" cols="50"></textarea>
+
+                            </div>
+                            <br>
+                            <input type="submit" class="btn btn-light bg-success" id="button" value="Enviar email">
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <img class="w-100 h-100 mb-5"
+                                src="https://www.gob.mx/cms/uploads/document/main_image/66073/Buzo_n_y_manual_anticorrupcio_n-01.jpg"
+                                alt="" width="500px">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     <!-- Fin jumbotron -->
     
-</main>
+        </main>
 <footer class="py-3 my-4 container">
     <div class="row">
         <div class="col text-center">
@@ -75,7 +118,7 @@
 
             <button class="btn btn-lg btn-primary"><a href="https://es-la.facebook.com/iejoseantoniogalanmedellin" target="_blank" class="btn text-light"><i class="bi bi-facebook"></i></a></button>
         </div>
-        <div class="col"><p class="text-muted display-6">I.E. Jose Antonio Galan</p></div>
+        <div class="col"><p class="text-muted display-6">I.E. José Antonio Gálan</p></div>
         <div class="col">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8378204049577!2d-75.5543314846927!3d6.285038627631859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ca138c8d39%3A0xfc4ef841ad55714!2sI.E.%20Jos%C3%A9%20Antonio%20Gal%C3%A1n!5e0!3m2!1ses!2sco!4v1646097502810!5m2!1ses!2sco" class="w-100 h-100"></iframe>
         </div>
