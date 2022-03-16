@@ -7,114 +7,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
     <title>Inicio</title>
 </head>
 
 <body>
-    <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
-            <div class="container-fluid">
-                <a class="navbar-brand text-primary" href="index.html"> <img
-                        src="https://josegalan.edupage.org/photos/skin/logo/thumbs/max1000x100trESCUDO-JAG.jpg">
-                    I.E.J.A.G.</a>
-                <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="Nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="Simbolos.html">Simbolos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+    <header class="container_header">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="index.html"> <img
+                            src="/multimedia/saas.png">
+                        I.E.J.A.G.</a>
+                    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="Nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="Simbolos.html">Simbolos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <main>
+                
+                <!-- Inicio carousel -->
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner shadow rounded-3 mt-2">
+                        <div class="carousel-item active">
+                            <img src="/multimedia/1.png" class="w-100 h-30" alt="">
+                            
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/multimedia/2.png" class="w-100 h-30" alt=""> 
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/multimedia/3.png" class="w-100 h-30"alt="">
+                            
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-        </nav>
-        
-        <main>
             
-            <!-- Inicio carousel -->
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- Fin carousel -->
+
+
+        
+        
+    </main>
+        <div class="wave"></div>
+    </header>
+
+    <!-- Inicio jumbotron -->
+    <div class="container py-4 text-start ">
+                
+        <div class="p-5 mb-4 bg-primary rounded-3 text-white shadow">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Bienvenidos</h1>
+                <p class="col">INICIAMOS EL 2016 <br>
+                    La I.E. José Antonio Galán es un establecimiento de educación público, creado según resolución 0716 del 22 de Nov. de 2004, en el que se presta el servicio de formación en los niveles de primaria, secundaria y media académica y técnica en el campo de la programación informática. Para el año lectivo 2016 la Institución tiene como objetivo la formación de jóvenes críticos y con habilidades superiores en el campo de las tecnologías de la información y la comunicación (TIC's), con una clara visión social y sanas relaciones e igualmente en la estructuración de una personalidad proactiva. El estudiante que ingresa a la Institución se encontrará con una serie de actividades que complementarán su formación académica, que tienen que ver con la cultura, el deporte y el empleo del tiempo libre a través del acompañamiento que para tal efecto realiza la administración municipal y el INDER. Es importante destacar la presencia y la proyección institucional de "La Galán" en este sector de la ciudad con cientos de egresados que se vinculan al mercado laboral y universitario, dejando muy en alto el nombre de la Institución y de la comunidad educativa que representan. Finalmente les invitamos a que nos conozcan y se vinculen y hagan parte de nuestra FAMILIA GALANISTA.</p>
                 </div>
-                <div class="carousel-inner shadow rounded-3 mt-2">
-                    <div class="carousel-item active">
-                        <img src="/multimedia/1.png" class="w-100 h-30" alt="">
-                        
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/multimedia/2.png" class="w-100 h-30" alt=""> 
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/multimedia/3.png" class="w-100 h-30"alt="">
-                        
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
-        
-        <!-- Fin carousel -->
-        
-        <!-- Inicio jumbotron -->
-        <div class="container py-4 text-start ">
-            
-            <div class="p-5 mb-4 bg-primary rounded-3 text-white shadow">
-                <div class="container-fluid py-5">
-                    <h1 class="display-5 fw-bold">Bienvenidos</h1>
-                    <p class="col">INICIAMOS EL 2016 <br>
-                        La I.E. José Antonio Galán es un establecimiento de educación público, creado según resolución 0716 del 22 de Nov. de 2004, en el que se presta el servicio de formación en los niveles de primaria, secundaria y media académica y técnica en el campo de la programación informática. Para el año lectivo 2016 la Institución tiene como objetivo la formación de jóvenes críticos y con habilidades superiores en el campo de las tecnologías de la información y la comunicación (TIC's), con una clara visión social y sanas relaciones e igualmente en la estructuración de una personalidad proactiva. El estudiante que ingresa a la Institución se encontrará con una serie de actividades que complementarán su formación académica, que tienen que ver con la cultura, el deporte y el empleo del tiempo libre a través del acompañamiento que para tal efecto realiza la administración municipal y el INDER. Es importante destacar la presencia y la proyección institucional de "La Galán" en este sector de la ciudad con cientos de egresados que se vinculan al mercado laboral y universitario, dejando muy en alto el nombre de la Institución y de la comunidad educativa que representan. Finalmente les invitamos a que nos conozcan y se vinculen y hagan parte de nuestra FAMILIA GALANISTA.</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="container bg-white text-start">
+        <div class="container bg-white text-start">
 
-                <div class=" bg-white rounded-3">
+            <div class=" bg-white rounded-3">
 
-                    <div class="row align-items-md-stretch">
-                        <div class="col-md-6">
-                            <div class="h-100 w-100 p-5 text-dark bg-white border rounded-3 text text-start shadow-lg">
-                                <h2>Misión</h2>
-                                <p class="col">Nuestra misión es la formación del ser humano diverso, para contribuir a la transformación de su entorno en los niveles de preescolar, básica, media y educación de jovenes y adultos; fortaleciendo la convivencia escolar, el desempeño académico, el sentido de pertenencia y el liderazgo, desarrollando las competencias del saber conocer, saber ser, saber hacer, saber pensar, saber innovar, saber sentir, para interactuar con un mundo dinámico. Nuestro compromiso es el mejoramiento continuo con el servicio educativo que ofrecemos a la comunidad.</p>
-                            </div>
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div class="h-100 w-100 p-5 text-dark bg-white border rounded-3 text text-start shadow-lg">
+                            <h2>Misión</h2>
+                            <p class="col">Nuestra misión es la formación del ser humano diverso, para contribuir a la transformación de su entorno en los niveles de preescolar, básica, media y educación de jovenes y adultos; fortaleciendo la convivencia escolar, el desempeño académico, el sentido de pertenencia y el liderazgo, desarrollando las competencias del saber conocer, saber ser, saber hacer, saber pensar, saber innovar, saber sentir, para interactuar con un mundo dinámico. Nuestro compromiso es el mejoramiento continuo con el servicio educativo que ofrecemos a la comunidad.</p>
                         </div>
-                        <div class="col-md-6">
-                            <div class="h-100 w-100 p-5 bg-success text-white border rounded-3 text-start shadow-lg">
-                                <h2>Visión</h2>
-                                <p class="col">La Institución Educativa Jose Antonio Galán, en el año 2025, consolidará un servicio educativo incluyente por competencias, a través de metodologias activas que promuevan el aprendizaje significtivo para lo niveles de Preescolar, Básica y Media, en jornada única con Media Técnica articulada a través de convenios interinstitucionales, programa de educación de jóvenes y adultos; brindando a la sociedad egresados transformadores participativos y ciudadanos integrales.</p>
-                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="h-100 w-100 p-5 bg-success text-white border rounded-3 text-start shadow-lg">
+                            <h2>Visión</h2>
+                            <p class="col">La Institución Educativa Jose Antonio Galán, en el año 2025, consolidará un servicio educativo incluyente por competencias, a través de metodologias activas que promuevan el aprendizaje significtivo para lo niveles de Preescolar, Básica y Media, en jornada única con Media Técnica articulada a través de convenios interinstitucionales, programa de educación de jóvenes y adultos; brindando a la sociedad egresados transformadores participativos y ciudadanos integrales.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Fin jumbotron -->
+</div>
+<!-- Fin jumbotron -->
     
-</main>
 <footer class="py-3 my-4 container">
     <div class="row">
         <div class="col text-start">
