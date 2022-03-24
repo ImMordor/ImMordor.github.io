@@ -13,6 +13,7 @@
 
 .wave{
     position: absolute;
+    margin-top: 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -61,6 +62,6 @@
 /*Pantallas 1601 and up */
 @media screen and (min-width: 1601px) { 
     .container_header {
-        height: 70vh;
+        height: 72vh;
     }
 }
