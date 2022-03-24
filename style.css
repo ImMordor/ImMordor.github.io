@@ -1,6 +1,7 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container_header{
@@ -45,19 +46,39 @@
 // ---------------------------------------------------------
 
 /* Landscape Teléfonos */
-@media (max-width: 480px) {  }
+@media (max-width: 480px) { 
+    .container_header {
+        height: 42vh;
+    }
+}
 
 /* Landscape Teléfono a portrait tablet*/
-@media (min-width: 481px) and (max-width: 767px) {  }
+@media (min-width: 481px) and (max-width: 767px) { 
+    .container_header {
+        height: 45vh;
+    }
+}
 
 /*Pantallas 768 a 979*/
-@media screen and (min-width: 768px) and (max-width: 979px) {  }
+@media screen and (min-width: 768px) and (max-width: 979px) { 
+    .container_header {
+        height: 52vh;
+    }
+}
 
 /*Pantallas 980 a 1199*/
-@media screen and (min-width: 980px) and (max-width: 1199px) {  }
+@media screen and (min-width: 980px) and (max-width: 1199px) { 
+    .container_header {
+        height: 60vh;
+    }
+}
 
 /*Pantallas 1200 a 1600*/
-@media screen and (min-width: 1200px) and (max-width: 1600px) {  }
+@media screen and (min-width: 1200px) and (max-width: 1600px) { 
+    .container_header {
+        height: 72vh;
+    }
+}
 
 /*Pantallas 1601 and up */
 @media screen and (min-width: 1601px) { 
