@@ -22,6 +22,10 @@
     animation: wave 10s linear infinite;
 }
 
+.st-wave{
+    position: relative;
+}
+
 @keyframes wave {
     0%{
         background-position-x: 0;
